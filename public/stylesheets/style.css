@@ -11,6 +11,10 @@ a {
   display: inline;
 }
 
-.newSkill {
-  display: inline;
+.newSubmit {
+  margin: 8px;
+}
+
+#delete {
+  color: red;
 }

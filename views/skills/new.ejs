@@ -5,19 +5,15 @@
     <h1><%= title %></h1>
     <%- include('../partials/nav') %>
     <form action="/skills" method="POST">
-        <div class="newSkill">
+        <div>
             <p>Skill </p>
             <input type="text" name="skill">
-        </div>
-        <div class="newSkill">
             <p>Skill Type </p>
             <input type="text" name="type">
-        </div>
-        <div class="newSkill">
             <p>Proficiency: </p>
             <input type="text" name="proficiency">
         </div>
-        <button type="submit">Save Skill</button>
+        <button class="newSubmit" type="submit">Save Skill</button>
     </form>
 </body>
 </html>
