@@ -4,6 +4,9 @@ var skillsController = require("../controllers/skills");
 
 // All actual paths start with "/skills"
 router.get("/", skillsController.index);
+router.get("/new", skillsController.newSkill);
 router.get("/:id", skillsController.show);
+
+router.post("/", skillsController.create);
 
 module.exports = router;
